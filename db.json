@@ -1,0 +1,48 @@
+{
+  "grounds": [
+    {
+      "id": 1,
+      "name": "Tennis Court Arena",
+      "sportType": "Tennis",
+      "pricePerHour": 450
+    },
+    {
+      "id": 2,
+      "name": "Football Pitch Central",
+      "sportType": "Football",
+      "pricePerHour": 800
+    },
+    {
+      "id": 3,
+      "name": "Basketball Indoor Court",
+      "sportType": "Basketball",
+      "pricePerHour": 550
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "clientName": "Олександр",
+      "groundId": 1,
+      "date": "2026-06-15",
+      "hours": 2,
+      "tags": ["weekend", "verified"]
+    },
+    {
+      "id": 2,
+      "clientName": "Максим",
+      "groundId": 2,
+      "date": "2026-06-16",
+      "hours": 1,
+      "tags": ["evening", "football"]
+    },
+    {
+      "id": 3,
+      "clientName": "Андрій",
+      "groundId": 1,
+      "date": "2026-06-17",
+      "hours": 3,
+      "tags": ["tournament"]
+    }
+  ]
+}
